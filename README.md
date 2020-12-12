@@ -114,7 +114,8 @@ GitHub action自动运行，账号信息读取自 `Repo-Setting-Secrets`
 
 
 
-### 通知服务			**在notification.py文件修改**
+### 通知服务		
+**在notification.py文件修改**
 
 默认不开启，需要通知服务的需修改 `NOTIFYCFG` 参数
 
@@ -130,7 +131,8 @@ GitHub action自动运行，账号信息读取自 `Repo-Setting-Secrets`
 2. 使用bark的填写 `BARK` ，支持GitHub action
 3. 使用Telegram Bot的填写 `TG_BOT_TOKEN` `TG_USER_ID` ，支持GitHub action
 
-### 通知类型			**在qqread.py文件修改**
+### 通知类型			
+**在qqread.py文件修改**
 
 默认为每领15个宝箱通知一次，需要其他通知类型请修改 `NOTIFYTYPE` 参数
 
@@ -140,7 +142,8 @@ GitHub action自动运行，账号信息读取自 `Repo-Setting-Secrets`
   [0，1，2，3]  0：关闭通知   1：所有通知   2：领取宝箱成功通知   3：每领15个宝箱通知一次
 ```
 
-### 自动提现			**在qqread.py文件修改**
+### 自动提现			
+**在qqread.py文件修改**
 
 默认为关闭此功能，需要自动提现请修改 `DRAWAMOUNT` 参数
 
