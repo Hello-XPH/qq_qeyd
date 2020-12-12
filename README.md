@@ -53,7 +53,8 @@
 
    `QQREADBODYS` 匹配链接为 https://mqqapi.reader.qq.com/log/v4/mqq/track
 
-4. `QQREADHEADERS`参数格式为
+4. `QQREADHEADERS`参数格式为 
+#QQREADHEADERS=获取时长header=qqreadtimeheaderVal
 
 
   ```
