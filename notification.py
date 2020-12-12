@@ -19,8 +19,8 @@ NOTIFYCFG = 3     # [0,1,2,3]  0:不通知    1:server酱    2:bark服务    3:T
 
 SCKEY = ''        # Server酱的SCKEY
 BARK = ''         # bark服务,自行搜索
-TG_BOT_TOKEN = '1440521103:AAHjhO5LUUyeN6xKfI1YrmKEG1ttVrEsIx0'           # telegram bot token 自行申请
-TG_USER_ID = '795700637'             # telegram 用户ID
+TG_BOT_TOKEN = ''           # telegram bot token 自行申请
+TG_USER_ID = ''             # telegram 用户ID
 ##################################################################
 
 
