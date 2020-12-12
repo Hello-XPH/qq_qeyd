@@ -152,8 +152,9 @@ GitHub action自动运行，账号信息读取自 `Repo-Setting-Secrets`
 
 ### 同步Fork后的代码
 
-手动同步，[具体教程](http://google.com/)
-
+手动同步
+[具体教程1](http://google.com/)
+[具体教程](http://baidu.com/)
 
 
 ####如果这个都看不懂就不要使用我的项目了
