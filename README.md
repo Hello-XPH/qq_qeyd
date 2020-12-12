@@ -54,7 +54,6 @@
    `QQREADBODYS` 匹配链接为 https://mqqapi.reader.qq.com/log/v4/mqq/track
 
 4. `QQREADHEADERS`参数格式为 
-`QQREADHEADERS=获取时长header=qqreadtimeheaderVal`
 
   ```
 {"Cookie":"ywguid=123456789;ywkey=wedqwdlAWVJp9;platform=android;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.4.18.4945;os_ver=Android10","aaa":"bbb",......}
@@ -67,7 +66,7 @@
 {"Cookie":"ywguid=123456789;ywkey=******","aaa":"bbb",......}
 {"Cookie":"ywguid=123456789;ywkey=******","aaa":"bbb",......}
   ```
-
+**QQREADHEADERS=获取时长header=qqreadtimeheaderVal**
 5. `QQREADBODYS` 参数格式为
 
 ```
@@ -81,6 +80,7 @@
 {"common":{"appid":***,"areaid":5,"qq_ver":"8.4.18.4945","os_ver":"Android 10","mp_ver":"0.31.0","mpos_ver":"1.21.0","brand":"***","model":"***","screenWidth":393,"screenHeight":816,"windowWidth":393,"windowHeight":762,"openid":"***","guid":***,"session":"***","scene":1023,"source":-1,"hasRedDot":"false","missions":-1,"caseID":-1},"dataList":[{"click1":"bookShelf_myshelf_myBook_C","click2":"qqauthorize_addRCS_succ_C","route":"pages/book-read/index","refer":"pages/book-shelf/index","options":{"bid":"27325720","cid":"3","from":"shelf"},"dis":1607325831391,"ext6":31,"eventID":"bookRead_show_I","type":"shown","ccid":3,"bid":"27325720","bookStatus":1,"bookPay":1,"chapterStatus":0,"ext1":{"font":18,"bg":0,"pageMode":1},"from":"bookShelf_myshelf_myBook_C_0_27325720"}]}
 {"common":{"appid":***,"areaid":5,"qq_ver":"8.4.18.4945","os_ver":"Android 10","mp_ver":"0.31.0","mpos_ver":"1.21.0","brand":"***","model":"***","screenWidth":393,"screenHeight":816,"windowWidth":393,"windowHeight":762,"openid":"***","guid":***,"session":"***","scene":1023,"source":-1,"hasRedDot":"false","missions":-1,"caseID":-1},"dataList":[{"click1":"bookShelf_myshelf_myBook_C","click2":"qqauthorize_addRCS_succ_C","route":"pages/book-read/index","refer":"pages/book-shelf/index","options":{"bid":"27325720","cid":"3","from":"shelf"},"dis":1607325831391,"ext6":31,"eventID":"bookRead_show_I","type":"shown","ccid":3,"bid":"27325720","bookStatus":1,"bookPay":1,"chapterStatus":0,"ext1":{"font":18,"bg":0,"pageMode":1},"from":"bookShelf_myshelf_myBook_C_0_27325720"}]}
   ```
+**QQREADBODYS=获取更新bod=qqreadbodyVal**
 
 6. `QQREADTIMEURL` 参数格式为
 
@@ -95,6 +95,7 @@ https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=***&refer=-1&bid=***&r
 https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=***&refer=-1&bid=***&readTime=***&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A***%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1
 https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=***&refer=-1&bid=***&readTime=***&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A***%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1
   ```
+  **QQREADTIMEURL=获取时长url=qqreadtimeurlVal**
   
 7. **特别注意：** 三个参数中每个账号信息出现的顺序一定要一致，且每个参数有几个账号就写几行，不要有多余空行！
 
