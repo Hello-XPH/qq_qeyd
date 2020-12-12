@@ -54,12 +54,8 @@
    `QQREADBODYS` 匹配链接为 https://mqqapi.reader.qq.com/log/v4/mqq/track
 
 4. `QQREADHEADERS`参数格式为 
+  `QQREADHEADERS=获取时长header=qqreadtimeheaderVal`
 
-
-
-	```
-  QQREADHEADERS=获取时长header=qqreadtimeheaderVal
-	```
 	```
 {"Cookie":"ywguid=123456789;ywkey=wedqwdlAWVJp9;platform=android;channel=mqqmina;mpVersion=0.30.0;qq_ver=8.4.18.4945;os_ver=Android10","aaa":"bbb",......}
 	```
