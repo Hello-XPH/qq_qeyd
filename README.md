@@ -152,7 +152,7 @@ GitHub action自动运行，账号信息读取自 `Repo-Setting-Secrets`
 
 ### 同步Fork后的代码
 
-手动同步，[具体教程](Google.com)
+手动同步，[具体教程](http://google.com/)
 
 
 
